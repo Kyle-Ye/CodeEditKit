@@ -1,0 +1,384 @@
+{
+  "abstract" : [
+    {
+      "text" : "Builds extension with API",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/build(withAPI:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11CodeEditKit16ExtensionBuilderC5build7withAPIAA0D9Interface_pAA0dH0_p_tF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "build"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "withAPI"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11CodeEditKit12ExtensionAPIP",
+        "text" : "ExtensionAPI"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11CodeEditKit18ExtensionInterfaceP",
+        "text" : "ExtensionInterface"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CodeEditKit"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "build(withAPI:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "build"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "withAPI"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "api"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11CodeEditKit12ExtensionAPIP",
+              "text" : "ExtensionAPI"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionInterface",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11CodeEditKit18ExtensionInterfaceP",
+              "text" : "ExtensionInterface"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "the API implementation itself",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "withAPI"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/codeeditkit\/extensionbuilder\/build(withapi:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CodeEditKit/documentation/CodeEditKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CodeEditKit",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI": {
+  "abstract" : [
+    {
+      "text" : "A protocol to conform to for Extension API instance assigned to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtensionAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI/extensionId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extensionId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "extensionId",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi\/extensionid"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtensionBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionbuilder"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionBuilder/build(withAPI:)": {
+  "abstract" : [
+    {
+      "text" : "Builds extension with API",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "build"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "withAPI"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11CodeEditKit12ExtensionAPIP",
+      "text" : "ExtensionAPI"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11CodeEditKit18ExtensionInterfaceP",
+      "text" : "ExtensionInterface"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/build(withAPI:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "build(withAPI:)",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionbuilder\/build(withapi:)"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionInterface": {
+  "abstract" : [
+    {
+      "text" : "A protocol for extensions to conform to",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionInterface"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionInterface",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionInterface"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtensionInterface",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensioninterface"
+}
+}
+}

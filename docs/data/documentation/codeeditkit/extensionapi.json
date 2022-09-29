@@ -1,0 +1,277 @@
+{
+  "abstract" : [
+    {
+      "text" : "A protocol to conform to for Extension API instance assigned to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11CodeEditKit12ExtensionAPIP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ExtensionAPI"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CodeEditKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ExtensionAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "ExtensionAPI"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ExtensionAPI"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/targets",
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/workspaceURL"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/codeeditkit\/extensionapi"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CodeEditKit/documentation/CodeEditKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CodeEditKit",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI": {
+  "abstract" : [
+    {
+      "text" : "A protocol to conform to for Extension API instance assigned to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtensionAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI/extensionId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extensionId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/extensionId",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "extensionId",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi\/extensionid"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI/targets": {
+  "abstract" : [
+    {
+      "text" : "API to work with targets",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "targets"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11CodeEditKit10TargetsAPIP",
+      "text" : "TargetsAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/targets",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "targets",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi\/targets"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionAPI/workspaceURL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "workspaceURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionAPI\/workspaceURL",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "workspaceURL",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionapi\/workspaceurl"
+}
+}
+}

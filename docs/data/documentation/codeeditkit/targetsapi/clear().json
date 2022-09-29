@@ -1,0 +1,186 @@
+{
+  "abstract" : [
+    {
+      "text" : "Clears all targets from the list",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/TargetsAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/TargetsAPI\/clear()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11CodeEditKit10TargetsAPIP5clearyyF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "clear"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CodeEditKit"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "clear()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "clear"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/codeeditkit\/targetsapi\/clear()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CodeEditKit/documentation/CodeEditKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CodeEditKit",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/TargetsAPI": {
+  "abstract" : [
+    {
+      "text" : "API for targets",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TargetsAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/TargetsAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TargetsAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TargetsAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/targetsapi"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/TargetsAPI/clear()": {
+  "abstract" : [
+    {
+      "text" : "Clears all targets from the list",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/TargetsAPI\/clear()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "clear()",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/targetsapi\/clear()"
+}
+}
+}

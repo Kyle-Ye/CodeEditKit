@@ -1,0 +1,287 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@CodeEditKit@objc(cs)ExtensionBuilder",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ExtensionBuilder"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "CodeEditKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ExtensionBuilder"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ExtensionBuilder"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ExtensionBuilder"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/CodeEditKit\/objc(cs)NSObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/CodeEditKit\/objc(pl)NSObject",
+        "doc:\/\/CodeEditKit\/s7CVarArgP",
+        "doc:\/\/CodeEditKit\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/CodeEditKit\/s23CustomStringConvertibleP",
+        "doc:\/\/CodeEditKit\/SQ",
+        "doc:\/\/CodeEditKit\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/build(withAPI:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/codeeditkit\/extensionbuilder"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://CodeEditKit/SH": {
+  "identifier" : "doc:\/\/CodeEditKit\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/SQ": {
+  "identifier" : "doc:\/\/CodeEditKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/documentation/CodeEditKit": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "CodeEditKit",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtensionBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtensionBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionbuilder"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionBuilder/build(withAPI:)": {
+  "abstract" : [
+    {
+      "text" : "Builds extension with API",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "build"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "withAPI"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11CodeEditKit12ExtensionAPIP",
+      "text" : "ExtensionAPI"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11CodeEditKit18ExtensionInterfaceP",
+      "text" : "ExtensionInterface"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/build(withAPI:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "build(withAPI:)",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionbuilder\/build(withapi:)"
+},
+"doc://CodeEditKit/documentation/CodeEditKit/ExtensionBuilder/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/CodeEditKit\/documentation\/CodeEditKit\/ExtensionBuilder\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/codeeditkit\/extensionbuilder\/init()"
+},
+"doc://CodeEditKit/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/CodeEditKit\/objc(cs)NSObject",
+  "title" : "ObjectiveC.NSObject",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/CodeEditKit\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/CodeEditKit\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/CodeEditKit\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://CodeEditKit/s7CVarArgP": {
+  "identifier" : "doc:\/\/CodeEditKit\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}
